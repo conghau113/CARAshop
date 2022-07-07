@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR CART</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <section id="header">
+        <section id="overlay"></section>
+        <!-- logo -->
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+        <!-- nav link -->
+        <div id="nav-modal">
+            <ul id="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a id="close-menu">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <!-- cart header -->
+    <section id="cart-header">
+        <h2>#cart</h2>
+        <p>Add your coupon code & SAVE upto 70%!</p>
+    </section>
+    <!-- cart table -->
+    <section id="cart" class="section-p1">
+        <table>
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$78.00</td>
+                    <td>1</td>
+                    <td>$78.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$78.00</td>
+                    <td>1</td>
+                    <td>$78.00</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>$78.00</td>
+                    <td>1</td>
+                    <td>$78.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- total cost -->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Aplly</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 234</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 234</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </section>
+    <!-- newsletter -->
+    <section id="newsletter" class="section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="/img/logo.png" alt="">
+            <h4>Contact</h4>
+            <a href="mailto:conghau1132000@gmail.com"><strong>Address: </strong>conghau1132000@gmail.com</a>
+            <a href="tel:0392355512"><strong>Phone:</strong> (+84) 392 355 512</a>
+            <p><strong>Hours:</strong> 10:10 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>@ 2022 - HTML CSS Ecommerce Website</p>
+        </div>
+    </footer>
+    <script src="/JS/main.js"></script>
+</body>
+
+</html>
